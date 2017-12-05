@@ -1,6 +1,6 @@
 project_name = "jenkins-pipeline-python"
 repo = "https://github.com/suaveyosi/test-jenkins-1.git"
-repo_name = "repo"
+repo_name = "test-jenkins-1"
 
 pipelineJob(project_name) {
     definition {

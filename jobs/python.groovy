@@ -5,7 +5,7 @@ repo_name = "test-jenkins-1"
 pipelineJob(project_name) {
     definition {
 	triggers{
-	   scm('* * * * *')
+	   scm('H/15 * * * *')
         }
 
 	cpsScm{
